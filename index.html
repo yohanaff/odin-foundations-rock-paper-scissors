@@ -5,11 +5,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+  <title>Rock, Paper, Scissors Game</title>
 </head>
 
 <body>
-  <script src="script.js"></script>
+  <div class="game-container">
+    <h2>ROCK PAPER SCISSORS</h2>
+    <div class="container">
+      <h2>Make a choice</h2>
+      <div id="choice-buttons" class="choice-buttons">
+        <button value="Rock" class="choice-button neon-button"><span role="img" aria-label="Rock">👊</span></button>
+        <button value="Paper" class="choice-button neon-button"><span role="img" aria-label="Paper">✋</span></button>
+        <button value="Scissors" class="choice-button neon-button"><span role="img"
+            aria-label="Scissors">✌️</span></button>
+      </div>
+
+      <div id="result" class="result"></div>
+      <div id="playerScore" class="playerScore"></div>
+      <div id="computerScore" class="computerScore"></div>
+      <button id="play-again" class="play-again" style="display: none;">PLAY AGAIN!</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
