@@ -3,7 +3,6 @@ class RockPaperScissors {
     this.playerScore = 0;
     this.computerScore = 0;
     this.result = document.getElementById('result');
-    // this.score = document.getElementById('score');
     this.playerScoreDisplay = document.getElementById('playerScore');
     this.computerScoreDisplay = document.getElementById('computerScore');
     this.choiceButtons = document.getElementById('choice-buttons');
